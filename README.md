@@ -68,8 +68,16 @@ We prefer to install Flutter this way:
 ```sh
 git clone https://github.com/flutter/flutter.git
 sudo mv flutter /opt
+```
+
+Append the path:
+
+```sh
 export PATH="$PATH:/opt/flutter/bin"
 ```
+
+Typically you will add the path to your own shell configuration file such as `.zshrc`.
+
 
 Verify:
 
