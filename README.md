@@ -171,3 +171,24 @@ We prefer to use the newest stable operating system, which at the time of writin
 Android Studio should now create the AVD Phone Pixel 3a with R operating system.
 
 
+### Run the app
+
+Use menu "Run" -> "Run".
+
+You may see two options for "main.dart": one has a Dart icon, one has a Flutter icon. Choose the Flutter one.
+
+Android Studio should show the bottom status bar work in progress, such as: Running Gradle task 'assembleDebug'. This may take a while (e.g. 10 minutes) because Android Studio may need to download more software.
+
+Output:
+
+```
+Launching lib/main.dart on Android SDK built for x86 in debug mode...
+Running Gradle task 'assembleDebug'...
+✓ Built build/app/outputs/flutter-apk/app-debug.apk.
+Installing build/app/outputs/flutter-apk/app.apk...
+Waiting for Android SDK built for x86 to report its views...
+Debug service listening on ws://127.0.0.1:52415/5w3MSveafuk=/ws
+Syncing files to device Android SDK built for x86...
+```
+
+The emulator should launch the app, and should show the main page, titled "Flutter Demo Home Page".
